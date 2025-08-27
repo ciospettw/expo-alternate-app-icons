@@ -23,7 +23,7 @@ public class ExpoAlternateAppIconsModule: Module {
     private func setAlternateAppIcon(icon: String?, promise: Promise) -> Void {
         Task { @MainActor in
             do {
-                try await UIApplication.shared.setAlternateIconName(icon);
+                try await UIApplication.shared._setAlternateIconName(icon);
 
                 promise.resolve(icon);
             } catch {
