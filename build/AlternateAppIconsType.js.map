@@ -1,0 +1,1 @@
+{"version":3,"file":"AlternateAppIconsType.js","sourceRoot":"","sources":["../src/AlternateAppIconsType.ts"],"names":[],"mappings":"","sourcesContent":["export type AlternateAppIcons = string;\r\n"]}
